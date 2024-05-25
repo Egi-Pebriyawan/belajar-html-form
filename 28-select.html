@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Tag</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="hobby">Hobby : </label>
+      <!--hilangkan multiple jika hanya ingin memilih satu-->
+      <select name="hobby" id="hobby" multiple size="1">
+        <option value="coding">coding</option>
+        <option value="mancing">mancing</option>
+        <option value="gaming">gaming</option>
+      </select>
+      <button type="submit">simpan</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <form action="">
+      <label for="hobby">Hobby : </label>
+      <!--hilangkan multiple jika hanya ingin memilih satu-->
+      <select name="hobby" id="hobby" multiple size="2">
+        <optgroup label="coding">
+          <option value="coding">java</option>
+          <option value="coding">php</option>
+          <option value="coding">javascript</option>
+        </optgroup>
+        <optgroup label="gaming">
+          <option value="mobile_legend">mobile legend</option>
+          <option value="AOT">AOT</option>
+          <option value="GTA">GTA</option>
+        </optgroup>
+        <optgroup label="sport">
+          <option value="basket">basket</option>
+          <option value="sepakbola">sepakbola</option>
+          <option value="badminton">badminton</option>
+        </optgroup>
+      </select>
+      <button type="submit">simpan</button>
+    </form>
+  </body>
+</html>
